@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #99CC33, #003333);
+  color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.signup-section{
+  width: 50em;
+  height: 30em;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+}
+.signup-section:hover{
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+img{
+  position: relative;
+  left: 29%;
+  top: 2.5%;
+  border-radius: 0 20px 20px 0;
+  height: 95%;
+  
+}
+.signup{
+  position: relative;
+  left: 20%;
+  bottom: 1.4em;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: ubuntu;
+}
+h2{
+  font-family: monospace;
+  position: relative;
+  right: 1em;
+}
+input{
+  padding: 4px;
+  font-family: cursive;
+  border: none;
+  border-bottom: 2px solid #9C27B0;
+  outline: none;
+}
+input:hover{
+  border-color: red;
+  transition: all .3s ease;
+}
+input:active{
+  border: none;
+  border-bottom: 2px solid #009688;
+}
+label{
+  margin-right: 2.5em;
+}
+button{
+  position: relative;
+  top: 1.3em;
+  left: 5em;
+  padding: 4px;
+  height:2em;
+  width: 5em;
+  background: transparent;
+  font-weight: bold;
+  color: red;
+}
+button:hover{
+  color: white;
+  border-radius: 9999px;
+  background-color: red;
+  transition: all .3s ease;
+}
+p{
+  position: relative;
+  top: 1.3em;
+  word-spacing: 0.5em;
+  font-size:large;
+  font-family: ubuntu;
+}
+p a{
+  text-decoration: none; 
+  color: blue;
+}
+p a:hover{
+  text-decoration: underline; 
+  color: red;
+}
